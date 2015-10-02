@@ -1,0 +1,19 @@
+/* js-slider */
+.js-slide-container {position:relative;}
+.js-slide-container > * {position:absolute; top:0; left:0; width:100%;}
+
+/* main */
+.featured-title {margin-top:0; margin-bottom:1.5rem; font-size:1.7rem;}
+.slide-counter {display:block; position:absolute; top:0; right:0;}
+.slide-count {display:inline-block; width:10px; height:10px; padding:0; margin-left:2px; background-color:#fff; border:none; border-radius:50%; text-indent:-999px; overflow:hidden;}
+.slide-count.active {background-color:#01a3ec;}
+
+.featured-service {position:relative; overflow:hidden; width:100%; height:131px; padding-top:1.6rem; background-color:rgba(31, 33, 35, .55); border-top:1px solid #4b4e4f; border-bottom:1px solid #6f7375;}
+.featured-service .featured-title {color:#fff; margin-bottom:.9rem; margin-left:.5rem;}
+.featured-service-wrap {width:100%; padding-left:1rem; padding-right:1rem;}
+.featured-service .slide-counter {top:21px; right:18px;}
+
+
+.slide-button {position:absolute; top:50%; width:22px; border:none; background-color:transparent; background-repeat:no-repeat; background-size:8px; text-indent:-999px; overflow:hidden;}
+.slide-prev {left:0;  background-image:url(http://placehold.it/35x35); background-position:50% 50%;}
+.slide-next {right:0; background-image:url(http://placehold.it/35x35); background-position:50% 50%;}
